@@ -116,5 +116,23 @@ header ul li a.active{
 .sec {
     z-index: 9;
     color: #fff;
-    padding: 0px 100px;
+    height: 100vh;
+    position: relative;
+}
+
+.sec #content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#content img {
+  width: 30%;
+  float: left;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
 }
